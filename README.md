@@ -26,13 +26,13 @@ No Linux as permissões são mostradas como uma string sequência de 10 digitos
 "**drwxrwxrwx**"
 
 Onde:
-d = refere-se as permissões de um diretório. Se for **-** refere-se a um arquivo
+**d** = refere-se as permissões de um diretório. Se for **-** refere-se a um arquivo
 
-r = refere-se a permissão de leitura.(read)
+**r** = refere-se a permissão de leitura.(read)
 
-w = refere-se a permissão de escrita.(write)
+**w** = refere-se a permissão de escrita.(write)
 
-x = refere-se a permissão de executar.(execute)
+**x** = refere-se a permissão de executar.(execute)
 
 Primeiro sequência de 3 digítos: **rwx** refere-se as permissões do usuário. (u)
 
