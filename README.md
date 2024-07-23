@@ -39,3 +39,18 @@ Primeiro sequência de 3 digítos: **rwx** refere-se as permissões do usuário.
 Segundo sequência de 3 digítos: **rwx** refere-se as permissões do grupo. (g)
 
 Terceira sequência de 3 digítos: **rwx** refere-se as permissões de outros.(o)
+
+## Explorando as permissões existentes
+
+Durante a mudança das permissões de acesso, leitura e execução é importante visualizar quais permissões já estão habilitadas ou desabilitadas.
+
+Algumas pastas e arquivos no Linux se mantém ocultos por via de regra para evitar acessos acidentais, você pode mostrar os arquivos ocultos utilizando o comando:
+
+**ls -a** : Exibe arquivos ocultos. Os arquivos ocultos começam com um ponto (.) no início.
+
+Outros comandos para visualizar as permissões:
+
+**ls -l** : Exibe permissões de arquivos e diretórios. Também exibe outras informações adicionais, incluindo o nome do proprietário, o grupo, o tamanho do arquivo e a hora da última modificação.
+
+**ls -la** : Exibe permissões de arquivos e diretórios, incluindo arquivos ocultos. Essa é uma combinação das outras duas opções.
+
