@@ -68,5 +68,18 @@ ou utilizar "**=**" (atribuição direta/exata)
 
 Neste exemplo acima estamos concedendo as seguintes permissões: Para o (usuário(u)) adicionamos a leitura e escrita do arquivo. Para o (grupo(g)) removemos a escrita execução.
 
+Se você quisesse retirar todas as permissões, poderia usar:
+
+**chmod u-rwx,g-rwx,o-rwx arquivo.txt**
+
+Outra maneira de atribuir essas permissões é usar o sinal de igual (=) nesse primeiro argumento:
+
+**chmod u=r,g=rw,o=- arquivo.txt**
+
+__**Observação:**__ Quando houver alterações de permissão para mais de um tipo de proprietário, serão necessárias vírgulas para separar as alterações para cada tipo de proprietário. Você não deve adicionar espaços após essas vírgulas.
+------
+
+
+
 
 
