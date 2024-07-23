@@ -64,7 +64,8 @@ Existem duas formas de realizar a mudança:
 Utilizar "**+**" e o "**-**" (atribuição indereta) 
 ou utilizar "**=**" (atribuição direta/exata)
 
-1°: para exemplo **arquivo.txt** podemos usar **chmod u+rw, g-wx arquivo.txt** 
+1°: para exemplo **arquivo.txt** podemos usar **chmod u+rw, g-wx arquivo.txt**
+
 Neste exemplo acima estamos concedendo as seguintes permissões: Para o (usuário(u)) adicionamos a leitura e escrita do arquivo. Para o (grupo(g)) removemos a escrita execução.
 
 
