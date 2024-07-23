@@ -1,5 +1,10 @@
 # Comandos Para USO BÁSICO do Linux via Command Line
 ------
+Os comandos abaixo são recomendavéis para maninupulação básica
+de arquivos e repositórios, neste caso foi utilizado como base: 
+Linux Mint que é uma distribuição Linux orientada pela comunidade baseada no Ubuntu (que, por sua vez, é baseada no Debian),
+fornecida com uma variedade de aplicativos gratuitos e de código aberto.
+------
 ### mkdir
   - criar diretório(pasta)
 ### rmdir 
