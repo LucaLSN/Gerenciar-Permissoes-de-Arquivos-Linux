@@ -54,3 +54,18 @@ Outros comandos para visualizar as permissões:
 
 **ls -la** : Exibe permissões de arquivos e diretórios, incluindo arquivos ocultos. Essa é uma combinação das outras duas opções.
 
+## Realizar a mudança de permissões
+
+Ao realizar qualquer mudança significativa deve-se observar o princípio de **privilégio mínimo**, ou seja, conceder acesso apenas o acesso e autorizações mínimas para executar determinada tarefa.
+
+Usamos o comando **chmod** para alterar as permissões de **rwx** 
+
+Existem duas formas de realizar a mudança:
+Utilizar "**+**" e o "**-**" (atribuição indereta) 
+ou utilizar "**=**" (atribuição direta/exata)
+
+1°: para exemplo **arquivo.txt** podemos usar **chmod u+rw, g-wx arquivo.txt** 
+Neste exemplo acima estamos concedendo as seguintes permissões: Para o (usuário(u)) adicionamos a leitura e escrita do arquivo. Para o (grupo(g)) removemos a escrita execução.
+
+
+
