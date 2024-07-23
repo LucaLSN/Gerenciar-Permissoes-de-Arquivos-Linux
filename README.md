@@ -22,3 +22,14 @@ fornecida com uma variedade de aplicativos gratuitos e de código aberto.
   - exemplo: mv arquivo.txt pastamover -- comando move o arquivo.txt para a pastamover (se no mesmo diretório)
 ---------
 # Gestão BÁSICA de Permissões Linux via Command Line
+No Linux as permissões são mostradas como uma string sequência de 10 digitos
+**drwxrwxrwx**
+Onde:
+d = refere-se as permissões de um diretório. Se for **-** refere-se a um arquivo
+r = refere-se a permissão de leitura.(read)
+w = refere-se a permissão de escrita.(write)
+x = refere-se a permissão de executar.(execute)
+
+Primeiro sequência de 3 digítos: **rwx** refere-se as permissões do usuário. (u)
+Segundo sequência de 3 digítos: **rwx** refere-se as permissões do grupo. (g)
+Terceira sequência de 3 digítos: **rwx** refere-se as permissões de outros.(o)
